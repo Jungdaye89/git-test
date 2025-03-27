@@ -8,14 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1/scenario4")
-public class Scenario4RenamedFile {
+@RequestMapping("api/v1/scenario4")
+public class Scenario4Controller {
 
-    @GetMapping
-    public ResponseEntity<Integer> scenario4Update() {
+    @GetMapping("/update")
+    public ResponseEntity<String> update() {
 
-        // b 브랜치에서 수정하기
-
-        return ResponseEntity.ok(5);
+        return ResponseEntity.ok("scenario3 A 브랜치는 수정을 진행");
     }
 }

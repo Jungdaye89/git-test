@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("api/v1/scenario3")
-public class Scenario3Controller {
+@RequestMapping("/api/v1/scenario5")
+public class Scenario5RenamedFile {
 
-    @GetMapping("/update")
-    public ResponseEntity<String> update() {
+    @GetMapping
+    public ResponseEntity<Integer> scenario5Update() {
 
-        return ResponseEntity.ok("scenario3 A 브랜치는 수정을 진행");
+        return ResponseEntity.ok(5);
     }
 }
