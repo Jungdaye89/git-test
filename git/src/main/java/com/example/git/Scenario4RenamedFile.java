@@ -12,8 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Scenario4RenamedFile {
 
     @GetMapping
-    public ResponseEntity<String> scenario4() {
+    public ResponseEntity<Integer> scenario4Update() {
 
-        return ResponseEntity.ok("scenario4 base");
+        // b 브랜치에서 수정하기
+
+        return ResponseEntity.ok(5);
     }
 }
