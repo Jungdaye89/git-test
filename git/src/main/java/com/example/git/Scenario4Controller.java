@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/scenario4")
-public class Scenario4RenamedController {
+public class Scenario4Controller {
 
     @GetMapping
     public ResponseEntity<String> scenario4() {
 
-        return ResponseEntity.ok("b 브랜치에서는 수정 진행");
+        return ResponseEntity.ok("scenario4 base");
     }
 }
