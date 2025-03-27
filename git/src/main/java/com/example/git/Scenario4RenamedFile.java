@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1/scenario4")
-public class Scenario4Controller {
+public class Scenario4RenamedFile {
 
     @GetMapping
     public ResponseEntity<String> scenario4() {
