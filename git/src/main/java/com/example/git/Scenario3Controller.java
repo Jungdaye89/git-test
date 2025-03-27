@@ -14,7 +14,7 @@ public class Scenario3Controller {
     @GetMapping("/update")
     public ResponseEntity<String> update() {
 
-        return ResponseEntity.ok("A 브랜치에서는 수정");
+        return ResponseEntity.ok("scenario3 A 브랜치 수정");
     }
 
     @GetMapping("/delete")
