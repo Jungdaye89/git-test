@@ -20,7 +20,7 @@ public class TestController {
     @GetMapping("/scenario2")
     public ResponseEntity<String> scenario2() {
 
-        System.out.println("깃 충돌");
+        System.out.println("깃 충돌(a 브랜치)");
         System.out.println("연습 중입니다");
 
         return ResponseEntity.ok("같은 파일에서 다른 줄 수정할 때 충돌");
