@@ -16,10 +16,4 @@ public class Scenario3Controller {
 
         return ResponseEntity.ok("scenario3 A 브랜치 수정");
     }
-
-    @GetMapping("/delete")
-    public ResponseEntity<String> delete() {
-
-        return ResponseEntity.ok("B 브랜치에서는 삭제");
-    }
 }
