@@ -14,6 +14,6 @@ public class Scenario4RenamedController {
     @GetMapping
     public ResponseEntity<String> scenario4() {
 
-        return ResponseEntity.ok("scenario4 base");
+        return ResponseEntity.ok("b 브랜치에서는 수정 진행");
     }
 }
